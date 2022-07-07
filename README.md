@@ -1,7 +1,7 @@
 # EETIC React Session 1 - React Counter ⏲️
 
 
-<img width="250" src="https://raw.githubusercontent.com/donjosemathew/eetic-react-session-1/main/public/dp.jpg"/>
+<img width="600" src="https://raw.githubusercontent.com/donjosemathew/eetic-react-session-1/main/public/dp.jpg"/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
