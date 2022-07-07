@@ -14,7 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,6 +44,56 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(180deg);
   }
+}
+.font-light {
+  font-weight: 300;
+}
+h1 {
+  font-weight: 500;
+  letter-spacing: -0.03em !important;
+  font-size: 3rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.smallCircle {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(255, 255, 255, 0.263);
+  border-radius: 50%;
+  margin: 2rem;
+  color: #fff;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+.smallCircle:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.counterholder {
+  width: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  height: 9rem;
+  background-color: rgba(255, 255, 255, 0.427);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.credits {
+  font-size: 1.3rem;
+  font-weight: 300;
 }
